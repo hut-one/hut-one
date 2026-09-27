@@ -38,6 +38,24 @@ You ──► Relay (sees your IP, can't decrypt) ──► Exit (decrypts, can'
 
 **No single node has the complete picture.** Read our full [Threat Model](docs/threat-model.md).
 
+## Supported Platforms
+
+Hut.one focuses on the undisputed heavyweights of Linux infrastructure:
+
+| Distro | Supported Versions | Market Share |
+|--------|-------------------|:------------:|
+| **Ubuntu LTS** | 22.04 (Jammy), 24.04 (Noble) | ~65.8% |
+| **Debian** | 12 (Bookworm), 13 (Trixie) | ~25.0% |
+
+By targeting the default images of major privacy-friendly VPS providers (Hetzner, Netcup, OVH, DigitalOcean), the open-source Playbook covers **over 90% of the identifiable Linux server market** (Source: W3Techs, Sept 2026).
+
+### The Roadmap
+We intentionally defer rolling-release distros (Arch) and alternative libc implementations (Alpine) to ensure our `nftables` and `systemd` configurations remain rigorously tested and fail-closed. 
+
+*Note: Support for Alpine (for ultra-lightweight homelab nodes) and RHEL/Fedora (for enterprise environments) is actively being developed for the [Hut.one Desktop App](https://hut.one).*
+
+---
+
 ## Quick Start (Manual Setup)
 
 If you want to set this up manually without the Hut.one desktop app:
