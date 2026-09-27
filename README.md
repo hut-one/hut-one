@@ -6,7 +6,7 @@
 
 Your servers. Your keys. Your privacy.
 
-[Architecture](docs/architecture.md) • [Security](SECURITY.md) • [Quick Start](#quick-start)
+[Architecture](docs/architecture.md) • [Security](SECURITY.md) • [Credits](CREDITS.md) • [Quick Start](#quick-start)
 
 </div>
 
@@ -62,6 +62,10 @@ cd hut-one
 ## Trust, But Verify
 
 This repository is intentionally open source. We believe privacy tools should be auditable. If you find a security issue, please see [SECURITY.md](SECURITY.md).
+
+## Standing on the Shoulders of Giants
+
+Hut.one is a proud user of [WireGuard](https://www.wireguard.com/) and is heavily inspired by the architectural research of [Obscura](https://obscura.net/). See [CREDITS.md](CREDITS.md) for our full acknowledgments.
 
 ## License
 
